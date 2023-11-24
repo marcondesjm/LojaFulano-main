@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.catalog{
+    margin-top: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.catalog a{text-decoration: none;}
+
+.cards-products-container{
+    max-width: 1100px;
+    width: 1100px;
+    display: grid;
+    margin-top: 80px;
+    column-gap: 100px;
+    row-gap: 100px;
+    grid-template-columns: auto auto auto;
+}
+
+.card-product{
+    width: 300px;
+    height: 450px;
+    background-color: #ff000015;
+    text-align: center;
+    border: 3px solid #ff000015;
+    border-radius: 25px;
+    cursor: pointer; 
+    transition: all 0.4s;
+    font-size: 18px;
+}
+.card-product:hover{
+    box-shadow: 2px 2px 4px 4px #ff00008f;
+}
+
+.teclado{
+    width: 250px;
+    height: 120px;
+    margin-top: 40px;
+}
+
+.teclado-white{
+    width: 270px;
+    height: 190px;
+    margin-top: 20px;
+    margin-bottom: -20px
+}
+
+.teclado-gamdias{
+    width: 280px;
+    height: 330px;
+    margin-top: -60px;
+    margin-bottom: -100px
+}
+.teclado-lakshmi{
+    width: 280px;
+    height: 330px;
+    margin-top: -30px;
+    margin-bottom: -130px
+}
+
+.teclado-optic{
+    width: 280px;
+    height: 310px;
+    margin-top: -40px;
+    margin-bottom: -100px
+}
+.teclado-draonic{
+    width: 280px;
+    height: 330px;
+    margin-top: -60px;
+    margin-bottom: -100px
+}
+
+.teclado-double-switch{
+    width: 280px;
+    height: 280px;
+    margin-top: 0px; 
+    margin-bottom: -100px;
+}
+.teclado-jelly{
+    width: 230px;
+    height: 100px;
+    margin-top: 65px;
+    margin-bottom: 0px;
+}
+
+.product-name{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 0px;
+    font-weight: bolder; 
+}
+
+.info-product{
+    margin-top: 1px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #ffffff8a;
+}
+
+.discount{
+    width: 55px;
+    margin-top: 45px;
+    position: absolute;
+    margin-left: 210px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    color: #fff;
+}
+
+.price{
+    margin-bottom: -1px;
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.price-now{
+    font-size: 32px;
+    color: #fff;
+}
+
+.mousepad-tokyo{
+    width: 250px;
+    height: 140px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.mousepad-new{
+    width: 280px;
+    height: 290px;
+    margin-top: -30px;
+    margin-bottom: -40px;
+}
+
+.mousepad-flick{
+    width: 170px;
+    height: 170px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.kit-mouse-pad{
+    width: 170px;
+    height: 170px;
+    margin-top: 15px;
+}
+
+.cable-pink{
+    width: 150px;
+    height: 140px; 
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.cable-aviator{
+    width: 200px;
+    height: 190px; 
+    margin-top: 15px;
+}
+
+.mousepad-dracula-london{
+    width: 290px;
+    height: 200px;
+    margin-bottom: -10px;
+}
+
+.gabinete{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 190px;
+}
+
+.headset{
+    width: 230px;
+    height: 210px; 
+}
+.headset-hero{
+    width: 180px;
+    height: 210px; 
+    margin-bottom: -20px;
+}
+.headset-motorola{
+    width: 200px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    height: 210px; 
+}
+
+.mouses{
+    width: 220px;
+    height: 180px; 
+    margin-top: 25px;
+}
+
+.mouse-reaping{
+    width: 100px;
+    height: 160px; 
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.soundbar{
+    width: 200px;
+    margin-bottom: -30px;
+}
+.switches{
+    width: 170px;
+    height: 170px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+.keycaps{
+    width: 180px;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media screen and (width <= 500px)  {
+    .catalog{
+        margin-top: 0px;
+        width: 100%; 
+        height: 7550px;
+    }
+    
+    .cards-products-container{
+        max-width: 475px;
+        width: 100%;
+        display: grid;
+        margin-left: 0px;
+        justify-content: center;
+        margin-top: 80px;
+        column-gap: 10px;
+        row-gap: 15px;
+        grid-template-columns: auto auto;
+    }
+    
+    .card-product{
+        width: 170px;
+        height: 230px;
+        font-size: 18px;
+    }
+
+    .teclado{
+        width: 150px;
+        height: 60px;
+        margin-top: 15px;
+        margin-bottom: -5px;
+    }
+    .teclado-white{
+        width: 150px;
+        height: 90px;
+        margin-top: 5px;
+        margin-bottom: -20px;
+    }
+    .teclado-double-switch{
+        width: 150px;
+        height: 150px;
+        margin-top: -20px;
+        margin-bottom: -60px;
+    }
+    .teclado-jelly{
+        width: 100px;
+        height: 60px;
+        margin-top: 15px;
+        margin-bottom: -5px;
+    }
+    
+    .mousepad-tokyo{
+        width: 150px;
+        height: 70px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .mousepad-new{
+        width: 150px;
+        height: 140px;
+        margin-top: -20px;
+        margin-bottom: -35px;
+    }
+    .mousepad-flick{
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .cable-pink{
+        width: 70px;
+        height: 70px; 
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+    .mousepad-dracula-london{
+        width: 150px;
+        height: 100px;
+        margin-bottom: -5px;
+    }
+
+    .gabinete{
+        margin-top: 5px;
+        margin-bottom: -10px;
+        width: 80px;
+        height: 90px;
+    }
+
+    .headset{
+        width: 130px;
+        height: 110px;
+        margin-bottom: -10px; 
+    }
+    .headset-motorola{
+        width: 90px;
+        height: 100px;
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+
+    .mouses{
+        width: 130px;
+        height: 100px; 
+        margin-top: 0;  
+        margin-bottom: -10px; 
+    }
+    
+    .mouse-reaping{
+        width: 50px;
+        height: 80px; 
+        margin-top: 5px;
+        margin-bottom: -5px;
+    }
+
+    .product-name{
+        font-size: 12px;
+    }
+    
+    .info-product{
+        margin-top: 3px;
+        font-size: 11px;
+    }
+
+    .discount{
+        width: 35px;
+        margin-top: 15px;
+        margin-left: 125px;
+        padding: 4px;
+        font-size: 11px;
+        border-radius: 4px;
+    }
+    
+    .price{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    
+    .price-now{
+        font-size: 22px;
+        color: #fff;
+    }
+    .kit-mouse-pad{
+        width: 80px;
+        height: 80px;
+        margin: 0;
+    }
+    .keycaps{
+        width: 80px;
+        height: 70px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .soundbar{
+        width: 130px;
+        height: 110px;
+        margin-top: -10px;
+    }
+    .teclado-gamdias{
+        width: 165px;
+        height: 200px;
+        margin-top: -55px;
+        margin-bottom: -70px;
+    }
+    .headset-hero{
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+    }
+    .teclado-jelly{
+        width: 130px;
+        height: 60px;
+    }
+    .switches{
+        width: 100px;
+        height: 100px;
+        margin-top: -10px;
+    }
+    .cable-aviator{
+        width: 100px;
+        height: 100px;
+        margin-top: 0;
+        margin-bottom: -10px;
+    }
+    .teclado-draonic{
+        width: 155px;
+        height: 180px;
+        margin-top: -25px;
+        margin-bottom: -80px;
+    }
+    .teclado-optic{
+        width: 150px;
+        height: 160px;
+        margin-top: -15px;
+        margin-bottom: -50px;
+    }
+    .teclado-lakshmi{
+        width: 150px;
+        height: 180px;
+        margin-top: -30px;
+        margin-bottom: -80px;
+    }
+}
+
+/* -- TABLETS -- */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .catalog{
+        margin-top: 480px;
+        width: 100%; 
+    }
+    .cards-products-container{
+        max-width: 475px;
+        width: 100%;
+        display: grid;
+        margin-left: 0px;
+        justify-content: center;
+        margin-top: 80px;
+        column-gap: 30px;
+        row-gap: 30px;
+        grid-template-columns: auto auto;
+    }
+    
+    .card-product{
+        width: 300px;
+        height: 430px;
+        font-size: 18px;
+    }
+
+    .teclado{
+        width: 260px;
+        height: 120px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .teclado-white{
+        width: 290px;
+        height: 270px;
+        margin-top: -10px;
+        margin-bottom: -70px;
+    }
+    .teclado-double-switch{
+        width: 290px;
+        height: 260px;
+        margin-top: -10px;
+    }
+    
+    .mousepad-tokyo{
+        width: 275px;
+        height: 150px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .cable-pink{
+        width: 170px;
+        height: 170px; 
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    .mouse-reaping{
+        margin-top: 15px;
+    }
+
+    .product-name{
+        font-size: 26px;
+    }
+    
+    .info-product{
+        margin-top: 3px;
+        font-size: 15px;
+    }
+
+    .discount{
+        width: 60px;
+        margin-top: 30px;
+        margin-left: 210px;
+    }
+    
+    .price{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    
+    .price-now{
+        font-size: 32px;
+        color: #fff;
+    }
+
+    .mouses{
+        width: 220px;
+        height: 180px; 
+        margin-top: 0;  
+        margin-bottom: 10px; 
+    }
+
+    .mousepad-new{
+        width: 320px;
+        height: 290px;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+    
+    .mousepad-flick{
+        width: 170px;
+        height: 170px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .teclado-white{
+        width: 270px;
+        height: 240px;
+        margin-top: -20px;
+        margin-bottom: -70px
+    }
+    
+    .teclado-double-switch{
+        width: 280px;
+        height: 280px;
+        margin-top: -20px; 
+        margin-bottom: -100px;
+    }
+    .kit-mouse-pad{
+        width: 150px;
+        height: 150px;
+        margin: 0;
+    }
+    .keycaps{
+        width: 140px;
+        height: 130px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .soundbar{
+        width: 220px;
+        height: 200px;
+        margin-top: -10px;
+    }
+    .teclado-gamdias{
+        width: 255px;
+        height: 280px;
+        margin-top: -55px;
+        margin-bottom: -90px;
+    }
+    .headset-hero{
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .teclado-jelly{
+        width: 240px;
+        height: 110px;
+        margin-top: 40px;
+    }
+    .switches{
+        width: 160px;
+        height: 160px;
+        margin-top: -10px;
+    }
+    .cable-aviator{
+        width: 180px;
+        height: 180px;
+        margin-top: 0;
+        margin-bottom: -10px;
+    }
+    .teclado-draonic{
+        width: 255px;
+        height: 260px;
+        margin-top: -25px;
+        margin-bottom: -90px;
+    }
+    .teclado-optic{
+        width: 270px;
+        height: 230px;
+        margin-top: -15px;
+        margin-bottom: -50px;
+    }
+    .teclado-lakshmi{
+        width: 280px;
+        height: 320px;
+        margin-top: -30px;
+        margin-bottom: -130px;
+    }
+}

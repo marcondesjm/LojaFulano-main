@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.container-headset-minos{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.title-product-headset-minos{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.name-product-headset-minos{
+    font-size: 22px;
+    margin-left: -60px;
+    margin-top: 0;
+}
+.description-headset-minos{
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    margin-left: -180px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+.description-minos p {
+    margin-bottom: 0;
+}
+.description-minos h2{
+    margin-bottom: -10px;
+}
+
+.pg-product-headset-minos{
+    width: 370px;
+    height: 340px;
+    margin-left: 500px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+.price-minos{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -280px;
+}
+.price-now-minos{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -240px;
+}
+.discount-minos{
+    width: 65px;
+    padding: 4px;
+    margin-left: -80px;
+    margin-top: 380px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.btn-buy-headset-minos{
+    width: 220px;
+    height: 50px;
+    margin-left: -240px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+}
+
+.headset-minos-white{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 300px;
+    background-color: #fff;
+    margin-top: -90px;
+}
+.headset-minos-black{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 430px;
+    margin-top: 480px;
+    background: #575d5e;
+    border: 2px solid rgba(72, 255, 0, 0.756);
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .container-headset-minos{
+        height: 1100px;
+    }
+    
+    .title-product-headset-minos{
+        font-size: 40px;
+    }
+    
+    .name-product-headset-minos{
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .description-headset-minos{
+        padding-bottom: 30px;
+        margin-top: 290px;
+        margin-left: 0;
+    }
+    .pg-product-headset-minos{
+        width: 265px;
+        height: 230px;
+        margin-left: 0px;
+        margin-top: -390px;
+    }
+    .price-minos{
+        margin-left: 0;
+    }
+    .price-now-minos{
+        margin-left: 0;
+    }
+    .discount-minos{
+        width: 55px;
+        padding: 4px;
+        margin-left: 195px;
+        margin-top: 640px;
+        font-size: 18px;
+    }
+    .btn-buy-headset-minos{
+        margin-left: -120px;
+        margin-top: 30px;
+    }
+    .headset-minos-white{
+        width: 40px;
+        height: 40px;
+        margin-left: 25px;
+        margin-top: -490px;
+    }
+    .headset-minos-black{
+        width: 40px;
+        height: 40px;
+        margin-left: -70px;
+        margin-top: -90px;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .pg-product-headset-minos{
+        width: 350px;
+        height: 320px;
+        margin-left: 430px;
+    }
+    
+    .headset-minos-white{
+        margin-left: 250px;
+        margin-top: -90px;
+    }
+    .headset-minos-black{
+        margin-left: 330px;
+        margin-top: 480px;
+    }
+}

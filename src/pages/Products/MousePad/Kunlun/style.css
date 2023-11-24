@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.container-mousepad-kunlun{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.name-product-mousepad-kunlun{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -460px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.title-product-mousepad-kunlun{
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.description-mousepad-kunlun{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: -555px;
+}
+
+.discount-mousepad-kunlun{
+    width: 65px;
+    padding: 4px;
+    margin-left: -490px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+    margin-top: 480px;
+}
+
+.price-mousepad-kunlun{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -690px;
+}
+.price-now-mousepad-kunlun{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -620px;
+}
+
+.btn-buy-mousepad-kunlun{
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    margin-left: -430px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+}
+
+.product-mousepad-kunlun{
+    width: 520px;
+    height: 480px;
+    margin-left: 400px;
+    margin-top: 200px;
+    position: absolute;
+}
+.parcelado-mousepad-kunlun{
+    font-size: 18px;
+    margin: 10px 0 20px -620px;
+}
+.parcelado-mousepad-kunlun p{margin: 0;}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .title-product-mousepad-kunlun{
+        font-size: 32px;
+        margin-top: 240px;
+    }
+    .name-product-mousepad-kunlun{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    .description-mousepad-kunlun{
+        font-size: 18px;
+        margin-top: 220px;
+        margin-left: 0px;
+    }
+
+    .discount-mousepad-kunlun{
+        margin-left: 190px;
+        margin-top: 740px;
+    }
+    
+    .price-mousepad-kunlun{
+        margin-left: 0px;
+    }
+    .price-now-mousepad-kunlun{
+        font-size: 45px;
+        padding-right: 20px;
+        margin-left: 0;
+    }    
+    .btn-buy-mousepad-kunlun{
+        margin-left: -120px;
+    }
+    .product-mousepad-kunlun{
+        width: 360px;
+        height: 380px;
+        margin-left: 0px;
+        margin-top: -70px;
+    }
+    .parcelado-mousepad-kunlun{
+        font-size: 18px;
+        margin: 5px 0 10px -20px;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .container-mousepad-kunlun{
+        height: 900px;
+    }
+    
+    .name-product-mousepad-kunlun{
+        font-size: 27px;
+        margin-left: 0px;
+    }
+    .title-product-mousepad-kunlun{
+        font-size: 60px;
+        margin-top: 240px;
+    }
+    
+    .description-mousepad-kunlun{
+        margin-left: 0px;
+        width: 450px;
+        margin-top: 280px;
+    }
+
+    .product-mousepad-kunlun{
+        width: 520px;
+        height: 480px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .price-mousepad-kunlun{
+        margin-left: 0px;
+    }
+    .price-now-mousepad-kunlun{
+        margin-left: 0px;
+    }
+    
+    .btn-buy-mousepad-kunlun{
+        margin-left: -120px;
+    }
+    .discount-mousepad-kunlun{
+        margin-left: 190px;
+        margin-top: 785px;
+    }
+    .parcelado-mousepad-kunlun{
+        font-size: 18px;
+        margin: 5px 0 10px -20px;
+    }
+}

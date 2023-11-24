@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.container-headset-hero-purple{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.title-product-headset-hero-purple{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.name-product-headset-hero-purple{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: 120px;
+}
+
+.product-headset-purple{
+    width: 310px;
+    height: 360px;
+    margin-left: 600px;
+    margin-top: 150px;
+    position: absolute;
+}
+.discount-hero-purple{
+    width: 65px;
+    padding: 4px;
+    margin-left: -50px;
+    margin-top: 360px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.white-hero-change2 {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 180px;
+    margin-top: -20px;
+    background-color: #fff;
+}
+
+.white-purple-hero-change2 {
+    border: 3px solid rgba(72, 255, 0, 0.756);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 580px;
+    margin-top: 600px;
+    background: linear-gradient(120deg, #fff 50%, purple 50%);
+}
+
+.white-red-hero-change2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 350px;
+    margin-top: -20px;
+    background: linear-gradient(120deg, #fff 50%, red 50%);
+}
+.btn-buy-headset-hero-purple{
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-left: -240px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .container-headset-hero-purple{
+        height: 1000px;
+    }
+    .title-product-headset-hero-purple{
+        font-size: 40px;
+    }
+    .name-product-headset-hero-purple{
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .product-headset-purple{
+        width: 225px;
+        height: 240px;
+        margin-left: 0px;
+        margin-top: -365px;
+    }
+    .white-hero-change2 {
+        width: 40px;
+        height: 40px;
+        margin-left: -80px;
+        margin-top: -460px;
+    }
+    
+    .white-purple-hero-change2 {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: -70px;
+    }
+    .discount-hero-purple{
+        margin-top: 600px;
+        margin-left: 200px;
+    }
+    .white-red-hero-change2{
+        width: 40px;
+        height: 40px;
+        margin-left: 60px;
+        margin-top: -460px;
+    }
+    .btn-buy-headset-hero-purple{
+        margin-left: -110px;
+        margin-top: 30px;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .white-hero-change2 {
+        margin-left: 120px;
+    }
+    
+    .white-purple-hero-change2 {
+        margin-left: 460px;
+        margin-top: 600px;
+    }
+    
+    .white-red-hero-change2{
+        margin-left: 290px;
+    }
+
+    .product-headset-purple{
+        margin-left: 440px;
+    }
+}

@@ -1,0 +1,91 @@
+.container-mousepad-taurus{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.name-product-mousepad-taurus{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -405px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.product-mousepad-taurus{
+    width: 500px;
+    height: 200px;
+    margin-left: 360px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.discount-mousepad-taurus{
+    width: 65px;
+    padding: 4px;
+    margin-left: -510px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+    margin-top: 570px;
+}
+.parcelado-mousepad-taurus{
+    font-size: 18px;
+    margin: 10px 0 20px -630px;
+}
+.parcelado-mousepad-taurus p{margin: 0;}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .name-product-mousepad-taurus{
+        font-size: 16px;
+        margin-left: 0px;
+    }
+
+    .product-mousepad-taurus{
+        width: 340px;
+        height: 130px;
+        margin-left: 0px;
+        margin-top: -220px;
+    }
+
+    .discount-mousepad-taurus{
+        margin-left: 195px;
+        margin-top: 820px;
+    }
+    .parcelado-mousepad-taurus{
+        margin: 5px 0 15px 0;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .name-product-mousepad-taurus{
+        font-size: 25px;
+        margin-left: 0px;
+    }
+    
+    .product-mousepad-taurus{
+        width: 520px;
+        height: 220px;
+        margin-left: 0px;
+        margin-top: -20px;
+        position: absolute;
+    }
+    
+    .discount-mousepad-taurus{
+        margin-left: 190px;
+        margin-top: 800px;
+    }
+    .parcelado-mousepad-taurus{
+        margin: 10px 0 20px 0;
+    }
+}

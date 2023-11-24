@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.container-mousepad-london{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.name-product-mousepad-london{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -230px;
+}
+.description-mousepad-london{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    margin-left: -365px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.description-mousepad-london p{margin-bottom: 0;}
+.discount-mousepad-london{
+    width: 65px;
+    padding: 4px;
+    margin-left: -260px;
+    margin-top: 430px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.price-mousepad-london{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin: 0;
+    margin-left: -450px;
+}
+.price-now-mousepad-london{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -400px;
+}
+
+.btn-buy-mousepad-london{
+    width: 220px;
+    height: 50px;
+    margin-left: -320px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+}
+.title-product-mousepad-london{
+    font-size: 80px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.product-mousepad-london{
+    width: 530px;
+    height: 340px;
+    margin-left: 480px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+button{
+    cursor: pointer;
+    position: absolute;
+}
+.dracula-mousepad-london {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(120deg,
+    #a11e2a 50%,
+    #575d5e 50%);
+    margin-left: 220px;
+    margin-top: -105px;
+    border-radius: 50%;
+}
+.london-mousepad-london{
+    width: 50px;
+    background: linear-gradient(120deg,
+    #243d2e 50%,
+    #d69647 50%);
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 520px;
+    margin-left: 690px;
+    border: 3px solid rgba(72, 255, 0, 0.756);
+}
+.tokyo-mousepad-london{
+    width: 50px;
+    height: 50px;
+    margin-top: -105px;
+    border-radius: 50%;
+    background: linear-gradient(120deg,
+    rgb(223, 89, 111) 50%,
+    white 50%);
+    margin-left: 120px;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .container-mousepad-london{
+        height: 900px;
+        margin-top: 00px;
+    }
+    .title-product-mousepad-london{
+        font-size: 40px;
+    }
+    .name-product-mousepad-london{
+        font-size: 16px;
+        margin-left: 0;
+    }
+    .product-mousepad-london{
+        width: 350px;
+        height: 240px;
+        margin-left: 0px;
+        margin-top: -200px;
+    }
+    .dracula-mousepad-london {
+        width: 40px;
+        height: 40px;
+        margin-left: -20px;
+        margin-top: -420px;
+    }
+    .london-mousepad-london{
+        width: 40px;
+        height: 40px;
+        margin-top: 45px;
+        margin-left: 195px;
+    }
+    .tokyo-mousepad-london{
+        width: 40px;
+        height: 40px;
+        margin-left: -110px;
+        margin-top: -420px;
+    }
+    .description-mousepad-london{
+        padding-bottom: 30px;
+        margin-top: 240px;
+        margin-left: 0;
+    }
+    .discount-mousepad-london{
+        width: 55px;
+        padding: 4px;
+        margin-left: 190px;
+        margin-top: 725px;
+        font-size: 18px;
+    }
+    .price-mousepad-london{
+        margin-left: 0;
+    }
+    .price-now-mousepad-london{
+        margin: 0;
+    }
+    .discount-mousepad-london{
+        margin-top: 635px;
+    }
+    .btn-buy-mousepad-london{
+        width: 200px;
+        height: 50px;
+        margin-left: -110px;
+        margin-top: 20px;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .product-mousepad-london{
+        width: 430px;
+        height: 300px;
+        margin-left: 350px;
+        margin-top: 200px;
+        position: absolute;
+    }
+
+    .dracula-mousepad-london {
+        margin-left: 150px;
+        margin-top: -105px;
+    }
+    .london-mousepad-london{
+        margin-top: 520px;
+        margin-left: 570px;
+    }
+    .tokyo-mousepad-london{
+        margin-top: -105px;
+        margin-left: 40px;
+    }
+}
