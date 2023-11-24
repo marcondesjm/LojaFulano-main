@@ -32,7 +32,7 @@ export default function Motorola () {
 
             <img src={image} alt='1' className='motorola-headphone-product'/>
 
-            <a target='_blank' href='https://wa.link/b81g0j'>
+            <a target='_blank' href='https://wa.link/u25bgd'>
                 <button type='submit' className='btn-buy-headphone-motorola'>COMPRAR</button>
             </a>
 

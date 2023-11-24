@@ -32,7 +32,7 @@ export default function LosAngeles () {
                 <p>R$ 104,64 - em até 2x</p>
             </div>
 
-           <a target='_blank' href='https://wa.link/tp9ipi'>
+           <a target='_blank' href='https://wa.link/f8foxi'>
             <button type='submit' className='btn-buy-cable'>COMPRAR</button>
            </a>
 

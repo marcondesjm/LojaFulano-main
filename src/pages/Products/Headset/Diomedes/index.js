@@ -30,7 +30,7 @@ export default function HeadsetDiomedes() {
 
             <img src={image} alt='2' className='headset-product-diomedes'/>
             
-            <a target='_blank' href='https://wa.link/ou23pw'>
+            <a target='_blank' href='https://wa.link/0y3jt3'>
                 <button type='submit' className='btn-buy-headset-hebe'>COMPRAR</button>
             </a>
 

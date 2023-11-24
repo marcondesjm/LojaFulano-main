@@ -10,7 +10,7 @@ function Sobre() {
         <h1>Como foi criada?</h1>
         <div className="created">
           <p>
-            A loja do Ciclano foi criada por Marcondes J. Machado, um entusiasta
+            A loja do Siclano foi criada por Marcondes J. Machado, um entusiasta
             da tecnologia que viu uma oportunidade no mercado para fornecer
             produtos de alta qualidade a preços acessíveis. Ele notou que muitas
             pessoas precisavam de acessórios para melhorar sua experiência com
@@ -22,7 +22,7 @@ function Sobre() {
               oferecer aos seus clientes.
             </p>
             <p>
-              A loja do Ciclano foi criada com o objetivo de fornecer
+              A loja do Siclano foi criada com o objetivo de fornecer
               periféricos acessíveis e confiáveis para pessoas em todo o brasil.
             </p>
           </p>

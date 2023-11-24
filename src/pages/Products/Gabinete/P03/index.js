@@ -33,7 +33,7 @@ export default function P03 () {
             </div>
 
             <img src={image} alt='1' className='product-gabinete-p03'/>
-           <a target='_blank' href='https://wa.link/yfo645'>
+           <a target='_blank' href='https://wa.link/w7xuo3'>
             <button type='submit' className='buy-buy'>COMPRAR</button>
            </a>
             </div>

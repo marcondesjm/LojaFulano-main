@@ -33,7 +33,7 @@ export default function Sakura () {
                 <p>R$ 104,64 - em até 2x</p>
             </div>
 
-           <a target='_blank' href='https://wa.link/6p9y2x'>
+           <a target='_blank' href='https://wa.link/4mvcfc'>
             <button type='submit' className='btn-buy-cable'>COMPRAR</button>
            </a>
 

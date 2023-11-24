@@ -34,7 +34,7 @@ function KitMousePad () {
                 
                 
 
-            <a target='_blank' href='https://wa.link/y4kd8d'>
+            <a target='_blank' href='https://wa.link/symr2z'>
                 <button type='submit' className='btn-buy-kit-mouse'>COMPRAR</button>
             </a>
 

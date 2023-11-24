@@ -33,7 +33,7 @@ export default function Macaw () {
                 <p>R$ 104,64 - em até 2x</p>
             </div>
 
-           <a target='_blank' href='https://wa.link/e7rghq'>
+           <a target='_blank' href='https://wa.link/sp8yh1'>
             <button type='submit' className='btn-buy-cable'>COMPRAR</button>
            </a>
 

@@ -33,7 +33,7 @@ export default function Black () {
                 <p>R$ 104,64 - em até 2x</p>
             </div>
 
-           <a target='_blank' href='https://wa.link/i76p5a'>
+           <a target='_blank' href='https://wa.link/c7wwnd'>
             <button type='submit' className='btn-buy-cable'>COMPRAR</button>
            </a>
 
